@@ -36,7 +36,7 @@ const rollDice =  () => {
 }
 //New round, resets the point and makes first roll true
 const reset = () => {
-  if (rollerWins === 2 || rollerLoss === 2){
+  if (rollerWins === 8 || rollerLoss === 8){
     console.log("game end")
     gameOver = true
    }
